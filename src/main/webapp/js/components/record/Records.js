@@ -12,7 +12,7 @@ import PropTypes from "prop-types";
 import {processTypeaheadOptions} from "./TypeaheadAnswer";
 
 const STUDY_CLOSED_FOR_ADDITION = false;
-const STUDY_CREATE_AT_MOST_ONE_RECORD = false;
+const STUDY_CREATE_AT_MOST_ONE_RECORD = true;
 
 class Records extends React.Component {
     static propTypes = {
